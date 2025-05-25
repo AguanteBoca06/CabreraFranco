@@ -1,0 +1,49 @@
+#botonesDados{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#botonAzar{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#conteinerEquipos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.equipos h1{
+    text-align: center;
+}
+.pokemon-container {
+  display: flex;               
+  justify-content: space-around; 
+  gap: 10px;                  
+}
+
+#botonBatalla{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#TituloEquipoGanador{
+    text-align: center;
+    margin-top: 30px;
+    color: green;
+}
+#EquipoGanador {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
