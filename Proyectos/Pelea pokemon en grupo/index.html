@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla grupal</title>
+    <link rel="stylesheet" href="C:\Users\Usuario\.vscode\Proyectos\Pelea pokemon en grupo\CSS\style.css">
+</head>
+<body>
+    <div id="botonesDados">
+        <div id="Resultadado1">
+            <button id="botonDados1" onclick="TirarDados1()"> 
+                <h2>Tirar dados equipo uno</h2> 
+            </button>
+        </div>
+        <div id="Resultadado2">
+            <button id="botonDados2" onclick="TirarDados2()"> 
+                <h2>Tirar dados equipo dos</h2> 
+            </button>
+        </div>
+    </div>
+
+    <div id="botonAzar"><button onclick="PokemonesAzar()"> <h2> Generar pokemones </h2></button></div>
+    <div id="conteinerEquipos">
+        <div id="EquipoUno" class="equipos">
+            <h1> Equipo uno </h1>
+            <div class="pokemon-container" id="pokemonEquipoUno"></div>
+        </div>
+        <div id="EquipoDos" class="equipos">
+            <h1> Equipo dos </h1>
+            <div class="pokemon-container" id="pokemonEquipoDos"></div>
+        </div>
+    </div>
+
+    <div id="botonBatalla">
+        <button id="Batalla" onclick="peleaPokemon()" disabled> 
+            <h2>Iniciar batalla</h2> 
+        </button>
+    </div>
+    <div id="TituloEquipoGanador"></div>
+    <div id="EquipoGanador"></div>
+
+    <script src="JS/Batalla.js"></script>
+    <script src="JS/Dados.js"></script>
+</body>
+</html>
