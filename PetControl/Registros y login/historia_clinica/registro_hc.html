@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - PetControl</title>
+    <link rel="stylesheet" href="../../style/registrar_animal.css">
+</head>
+<body>
+    <h2>Registrar historial clinico</h2>
+    <div class="contenedor">
+        <form action="procesar_registro_hc.php" method="post">
+            <input type="text" name="id_animal" placeholder="Id del animal" required><br><br>
+            <input type="date" name="fecha" placeholder="Fecha" required><br><br>
+            <input type="text" name="diagnostico" placeholder="Diagnostico" required><br><br>
+            <input type="text" name="observaciones" placeholder="Observaciones" required><br><br>
+            <button type="submit">Registrar hitorial clinico</button>
+            <p><a href="../../clases/HistoriaClinica.php">Ver historia clinica</a></p>
+            <a href="../../clases/Animales.php">Consultar id del animal</a>
+        </form>
+    </div>
+    <div class="banner">
+         <a href="../../bienvenido.php"> 
+        <img src="../../Img/logo.jpg" alt="Logo">
+    </div>
+</body>
+</html>

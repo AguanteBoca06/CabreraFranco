@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - PetControl</title>
+    <link rel="stylesheet" href="../../style/registrar_animal.css">
+</head>
+<body>
+    <h2>Registrar animal</h2>
+    <div class="contenedor">
+        <form action="registrar_animales.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" required><br><br>
+            <input type="text" name="especie" placeholder="Especie" required><br><br>
+            <input type="text" name="raza" placeholder="Raza" required><br><br>
+            <input type="date" name="fecha_nacimiento" placeholder="Fecha de nacimiento" required><br><br>
+            <button type="submit">Registrar su animal</button>
+            <p><a href="../../clases/Animales.php">Ver animales</a></p>
+        </form>
+    </div>
+    <div class="banner">
+        <a href="../../bienvenido.php"> 
+        <img src="../../Img/logo.jpg" alt="Logo">
+    </div>
+</body>
+</html> 
